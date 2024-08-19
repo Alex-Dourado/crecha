@@ -5,4 +5,10 @@ describe('template spec', () => {
     
    
   })
+  it('dois', () => {
+    cy.visit('https://google.com')
+    cy.get('#APjFqb').type("suco de laranja{enter}")
+    
+   
+  })
 })
