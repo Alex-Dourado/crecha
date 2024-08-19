@@ -1,5 +1,8 @@
 describe('template spec', () => {
   it('passes', () => {
-    cy.visit('https://example.cypress.io')
+    cy.visit('https://google.com')
+    cy.get('#APjFqb').type("suco de maça com fazer{enter}")
+    
+   
   })
 })
